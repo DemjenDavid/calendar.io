@@ -1,0 +1,13 @@
+# Calendar API
+
+## Setup
+
+python -m venv calenv
+
+calenv\Scripts\activate
+
+pip install -r requirements.txt
+
+docker compose up -d
+
+uvicorn app.main:app --reload
