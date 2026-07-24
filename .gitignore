@@ -8,6 +8,10 @@ calenv/
 .venv/
 venv/
 
+# Alembic
+migration/
+alembic.ini
+
 # Environment variables
 .env
 

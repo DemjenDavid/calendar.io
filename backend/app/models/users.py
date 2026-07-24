@@ -16,4 +16,11 @@ class User(Base):
         index=True, 
         nullable=False
     )
-    
+    name: Mapped[str | None] = mapped_column(
+        String,
+        nullable=True
+    )
+    password: Mapped[str | None] = mapped_column(
+        String,
+        nullable=True
+    )
